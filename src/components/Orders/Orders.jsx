@@ -1,6 +1,6 @@
 import { kanbanImgs } from '../../../utils/images';
 import { groupNumber, ordersDetailsData } from '../../data';
-import OrdersPieChart from '../OrdersPieChart/OrdersPieChart';
+import OrdersPieChart from '../OrdersPieChart/OrdersPieChart'; 
 import css from './Orders.module.css';
 
 const Orders = () => {
