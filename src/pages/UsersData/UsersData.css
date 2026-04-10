@@ -1,0 +1,17 @@
+.table-container {
+    /* border: 1px solid salmon; */
+    padding: 3rem 4rem;
+    margin: 0 auto;
+    width: 100%;
+    height: fit-content;
+    max-height: fit-content;
+}
+
+.table-container>:nth-child(1) {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+.MuiTableRow-root, .MuiTableCell-root {
+    border: none !important;
+}

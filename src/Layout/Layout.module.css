@@ -1,0 +1,147 @@
+.container {
+    /* border: 1px solid red; */
+    display: flex;
+    /* height: 100vh;
+    height: 100%; */
+    height: fit-content;
+    /* overflow-y: scroll; */
+    align-items: stretch;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.dashboard {
+    /* border: 3px solid green; */
+    position: relative;
+    width: 100%;
+    min-height: 100%;
+    z-index: 0;
+    padding-bottom: 4rem;
+}
+
+.dashboard:hover .topBaseGradients div {
+    filter: blur(85px);
+    transform: scale(1.1);
+    cursor: grab;
+}
+
+.topBaseGradients {
+    /* border: 2px solid salmon; */
+    position: absolute;
+    top: 0;
+    inset: 0;
+    /* height: 30rem; */
+    height: 40%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.topBaseGradients div {
+    transition: all 0.3s ease;
+}
+
+.topBaseGradients>:nth-child(2) {
+    left: 40%;
+}
+
+.topBaseGradients>:nth-child(3) {
+    right: 0;
+}
+
+.header {
+    /* border: 1px solid salmon; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 4rem;
+    padding: 2rem 4rem;
+}
+
+.header>:nth-child(1) {
+    font-size: 1.2rem;
+}
+
+.searchBar {
+    background-color: rgba(225, 225, 225, 0.49);
+    width: 40%;
+    max-width: 30rem;
+    padding: 1rem 1rem;
+    height: 3.2rem;
+    border-radius: 8px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    /* border: 2px solid rgb(63, 63, 63); */
+}
+
+.searchBar>input {
+    background: transparent;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 0;
+    width: 100%;
+}
+
+.searchBar input::placeholder {
+    color: var(--grey);
+}
+
+.profile {
+    /* border: 1px solid salmon; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.profile img {
+    height: 50px;
+    width: 50px;
+    transition: all 0.3s ease;
+}
+
+.profile:hover img {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.details>:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.details>:nth-child(2) {
+    font-size: 1.4rem;
+}
+
+.content {
+    /* border: 2px solid white; */
+    /* margin: auto; */
+    margin: 0 auto;
+    /* height: 100%;
+    height: 100vh; */
+    height: fit-content;
+    /* overflow-y: scroll; */
+    display: flex;
+    /* align-items: center; */
+    /* uncomment aic, and make mt -4rem */
+    margin-top: 4rem;
+    margin-top: 1rem;
+    margin-top: 2rem;
+    /* margin-top: -2rem; */
+}
+
+/* .content::-webkit-scrollbar {
+    display: none;
+} */
