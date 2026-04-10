@@ -4,7 +4,7 @@ import { BiSearch } from 'react-icons/bi';
 import { kanbanImgs } from '../../utils/images';
 import Sidebar from '../components/Sidebar/Sidebar';
 import { Navigate, Outlet, useLocation } from 'react-router-dom';
-
+ 
 const Layout = () => {
 
   const { pathname } = useLocation();
