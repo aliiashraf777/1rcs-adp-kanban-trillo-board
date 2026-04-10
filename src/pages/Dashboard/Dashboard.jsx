@@ -2,7 +2,7 @@ import css from './Dashboard.module.css';
 import { dashCardsData, groupNumber } from '../../data';
 import DashboardStatistics from '../../components/DashboardStatistics/DashboardStatistics';
 import Orders from '../../components/Orders/Orders';
-
+ 
 const Dashboard = () => {
     return (
         <div className={css.container}>
