@@ -4,7 +4,7 @@ import { MaterialReactTable } from "material-react-table";
 import { userData } from '../../data';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-
+ 
 const UsersData = () => {
 
     const columns = useMemo(() => [
