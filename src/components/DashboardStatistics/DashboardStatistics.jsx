@@ -1,7 +1,7 @@
 import { groupNumber } from '../../data';
 import StatisticsChart from '../StatisticsChart/StatisticsChart';
 import css from './DashboardStatistics.module.css';
-import { BsArrowUpShort } from 'react-icons/bs';
+import { BsArrowUpShort } from 'react-icons/bs'; 
 
 const DashboardStatistics = () => {
     return (
