@@ -61,10 +61,12 @@ It provides a smooth drag-and-drop inspired UI, clean structure, and responsive 
 ## 📂 Folder Structure  
 ```text
 src/
-├── assets/
+├── layout/
 ├── components/
+├── data/
 ├── pages/
 ├── utils/
+├── store/
 └── App.jsx
 ```
 
